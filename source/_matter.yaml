@@ -6,7 +6,8 @@ $matter[integral]:
 
 Integral:
   $delegate$groups: false
-  $matter:
+  $build$matter:
   - /integral[no-header]
-  - /[integral,no-date]
+  - - verbatim: \tableofcontents
+  - /[integral,addtoc,no-date]
 

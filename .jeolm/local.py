@@ -163,3 +163,18 @@ class Driver(RegularDriver):
                 return author
         return ', '.join(abbreviate(author) for author in authors)
 
+    @processing_target_aspect(aspect='source metabody', wrap_generator=True)
+    @classifying_items(aspect='metabody', default='verbatim')
+    def generate_source_metabody(self, target, metarecord):
+        if target.flags.issuperset({'addtoc', 'no-header'}):
+            if '$caption' in metarecord:
+                caption = metarecord['$caption']
+            else:
+                caption = '; '.join(metarecord['$source$sections'])
+            yield self.substitute_addtoc(line=caption)
+            yield target.flags_difference({'addtoc'})
+        else:
+            yield from super().generate_source_metabody(target, metarecord)
+
+    addtoc_template = r'\addcontentsline{toc}{section}{$line}'
+
