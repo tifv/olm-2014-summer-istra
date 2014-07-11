@@ -67,6 +67,8 @@ class Driver(RegularDriver):
             yield from super().generate_delegators(target, metarecord)
             return
         except self.NoDelegators:
+            if not metarecord.get('$delegate$groups', True):
+                raise
             if '$timetable' not in metarecord:
                 for subname in metarecord:
                     if subname.startswith('$'):
@@ -83,11 +85,9 @@ class Driver(RegularDriver):
                 else:
                     # Delegating to void
                     pass
-            elif metarecord.get('$delegate$groups', True):
+            else:
                 for group_flag in self.groups:
                     yield target.flags_union({group_flag})
-            else:
-                raise
 
     @processing_target_aspect(aspect='auto metabody', wrap_generator=True)
     @classifying_items(aspect='metabody', default='verbatim')
