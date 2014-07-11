@@ -22,7 +22,7 @@ $style:
     \ifx\jeolmgroupname\relax\else
         \begingroup\edef\x{\endgroup\noexpand\in@{,}{\jeolmgroupname}}\x
         \ifin@ группы: \else группа:\fi
-        \enspace{\large\jeolmgroupname}%
+        \enspace{\large\strut\jeolmgroupname}%
     \fi\ifx\jeolmdate\relax\else
         \qquad{\itshape\jeolmdate}%
     \fi\strut\nopagebreak\\%
