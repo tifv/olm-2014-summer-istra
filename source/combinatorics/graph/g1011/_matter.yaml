@@ -1,0 +1,4 @@
+$matter[integral]:
+- - mixture[-integral,g1011]
+  - verbatim: \resetproblem
+  - oriented[-integral,no-header]

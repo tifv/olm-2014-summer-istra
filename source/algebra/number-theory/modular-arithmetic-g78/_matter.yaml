@@ -1,0 +1,7 @@
+$matter[integral]:
+- - r2-1[-integral,g78r2]
+  - verbatim: \resetproblem
+  - r2-2[-integral,no-header]
+- - r1-1[-integral,g78r1]
+  - verbatim: \resetproblem
+  - r1-2[-integral,no-header]

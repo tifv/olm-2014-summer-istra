@@ -1,0 +1,32 @@
+!!omap
+
+# g78r1, g78r2
+- modular-arithmetic-g78: !!omap
+  - r2-1:
+  - r2-2:
+  - r1-1:
+  - r1-2:
+
+# g78r2
+- mixture-g78r2:
+
+# g78r1
+- exponent-g78r1:
+- diophantine-equations-g78r1:
+- euler-function-g78r1:
+
+# g9
+- divisibility-g9:
+- mixture-g9:
+
+# g1011
+- euler-function-g1011:
+- mixture-g1011:
+
+# g10
+- chinese-remainder-theorem:
+- mixture-g10:
+
+# g11
+- mixture-g11:
+

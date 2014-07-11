@@ -1,0 +1,4 @@
+$matter[integral]:
+- - basics[-integral,g11]
+  - verbatim: \resetproblem
+  - circle[-integral,no-header]

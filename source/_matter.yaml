@@ -1,0 +1,12 @@
+$matter[integral]:
+- olympiad
+- algebra
+- geometry
+- combinatorics
+
+Integral:
+  $delegate$groups: false
+  $matter:
+  - /integral[no-header]
+  - /[integral,no-date]
+

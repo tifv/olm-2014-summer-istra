@@ -1,0 +1,6 @@
+$matter[integral]:
+- - basics[-integral,g78r2]
+  - verbatim: \resetproblem
+  - bipartite[-integral,no-header]
+  - verbatim: \resetproblem
+  - oriented[-integral,no-header]

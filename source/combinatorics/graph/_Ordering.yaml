@@ -1,0 +1,22 @@
+!!omap
+
+# g78r2
+- g78r2: !!omap
+  - basics:
+  - bipartite:
+  - oriented:
+
+# g1011
+- g1011: !!omap
+  - mixture:
+  - oriented:
+- planar:
+
+# g10
+- painting: !!omap
+  - '1':
+  - '2':
+
+# g11
+- mixture-g11:
+

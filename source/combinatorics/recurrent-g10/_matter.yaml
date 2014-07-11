@@ -1,0 +1,10 @@
+$matter[integral]:
+- - loop[-integral,g10]
+  - verbatim: \resetproblem
+  - one-dimension[-integral,no-header]
+  - verbatim: \resetproblem
+  - fibbonaci[-integral,no-header]
+  - verbatim: \resetproblem
+  - binomial[-integral,no-header]
+  - verbatim: \resetproblem
+  - catalan[-integral,no-header]

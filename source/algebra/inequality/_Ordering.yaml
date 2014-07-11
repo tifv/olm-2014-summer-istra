@@ -1,0 +1,16 @@
+!!omap
+
+# g78r2
+- mean-g78r2:
+
+# g9
+- mean-g9:
+
+# g1011
+- smoothing:
+- mixture-g1011:
+
+# g11
+- jensen:
+- mixture-g11:
+

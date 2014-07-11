@@ -1,0 +1,30 @@
+!!omap
+
+# g78r2
+- progression-g78r2:
+
+# g78r1
+- fibbonaci:
+
+# g9
+- quadratic-trinomial-g9:
+- quadratic-trinomial-g9-more:
+
+# g1011
+- quadratic-trinomial-g1011:
+- mixture-g1011:
+- polynomial-w-integer-coeff-g1011:
+
+# g10
+- polynomial-chinese-remainder-theorem:
+- polynomial-interpolation:
+- generating-function:
+
+# g11
+- fundamental-theorem:
+- mixture-g11:
+
+# large branches
+- inequality:
+- number-theory:
+

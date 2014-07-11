@@ -1,0 +1,51 @@
+!!omap
+
+# g78r2
+- triangle-inequality:
+- equal-triangles-g78r2:
+- inequality-g78r2:
+- combinatorial-g78r2:
+
+# g78r1
+- mixture-g78r1-intro:
+- inscribed-angle-g78r1: !!omap
+  - '1':
+  - '2':
+- mixture-g78r1:
+- combinatorial-g78r1:
+
+# g9
+- right-triangle-g9:
+- locus-g9:
+- radical-axis:
+- combinatorial-g9:
+
+# g1011
+- mixture-g1011-1:
+- mixture-g1011-2:
+- mixture-g1011-appendage:
+- orthocenter-g1011:
+
+# g10
+- mass-point: !!omap
+  - '1':
+  - '2':
+  - '3':
+- simson-line-g10:
+
+# g11
+- projective-g11: !!omap
+  - basics:
+  - circle:
+- polar-line-g11:
+
+# g1011, g10
+- euler-line: !!omap
+  - g1011:
+  - g10:
+
+# g10, g11
+- sparrows: !!omap
+  - '1':
+  - '2':
+

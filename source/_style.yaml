@@ -1,0 +1,35 @@
+$style:
+- /_style
+#- /_style/local
+- verbatim: |-
+    \makeatletter
+    \newcommand\jeolminstitutionname
+        {{\upshape[}\/Московская ЛШ по математике{\upshape\/]}}
+    \newcommand\jeolmdaterange
+        {{\upshape[}\/15--28 июня 2014{\upshape\/]}}
+    \let\jeolmheadertemplate\undefined
+    \newcommand\jeolmheader{%
+    {\Large\vspace{4ex}}\par%
+    \begingroup\small\sffamily%
+    \strut\ifx\jeolmauthors\relax%
+      \hfill{\bfseries\jeolminstitutionname}\hfill
+    \else
+      {\bfseries\jeolminstitutionname}%
+        \hfill
+      {\mdseries\jeolmauthors}%
+    \fi\strut\nopagebreak\\%
+    \strut{\itshape\jeolmdaterange}\hfill
+    \ifx\jeolmgroupname\relax\else
+        \begingroup\edef\x{\endgroup\noexpand\in@{,}{\jeolmgroupname}}\x
+        \ifin@ группы: \else группа:\fi
+        \enspace{\large\jeolmgroupname}%
+    \fi\ifx\jeolmdate\relax\else
+        \qquad{\itshape\jeolmdate}%
+    \fi\strut\nopagebreak\\%
+    \rule[1ex]{\textwidth}{0.5pt} %
+    \endgroup% \small\sffamily
+    {\vspace{-1ex}\Large\vspace{-4ex}\vspace{-\parskip}}}
+    \let\jeolmauthors\relax
+    \let\jeolmgroupname\relax
+    \let\jeolmdate\relax
+    \makeatother

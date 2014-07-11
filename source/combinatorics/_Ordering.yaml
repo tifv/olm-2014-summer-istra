@@ -1,0 +1,57 @@
+!!omap
+
+# g78r2
+- search-g78r2:
+- weighing-g78r2:
+- algorithm-g78r2:
+- counting-g78r2: !!omap
+  - '1':
+  - '2':
+- inclusion-exclusion-g78r2:
+- logic-g78r2:
+- mixture-g78r2:
+- extreme-principle-g78r2:
+
+# g78r1
+- game-g78r1: !!omap
+  - joke:
+  - symmetry:
+  - sum:
+  - chase:
+  - win-position:
+  - mixture:
+- weighing-g78r1:
+- information-g78r1:
+
+# g9
+- painting-g9:
+- invariant-g9:
+- semi-invariant-g9:
+- constructive-g9:
+- infinity-g9: !!omap
+  - '1':
+  - '2':
+- game-g9:
+- geometric-g9:
+
+# g10
+- recurrent-g10: !!omap
+  - loop:
+  - one-dimension:
+  - fibbonaci:
+  - binomial:
+  - catalan:
+
+# g1011
+- game-g1011:
+- semi-invariant-g1011:
+- counting-g1011:
+
+# g11
+- game-g11:
+- invariant-g11:
+- semi-invariant-g11:
+
+# large branches
+- graph:
+

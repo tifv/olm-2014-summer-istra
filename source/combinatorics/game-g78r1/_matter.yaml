@@ -1,0 +1,12 @@
+$matter[integral]:
+- - joke[-integral,g78r1]
+  - verbatim: \resetproblem
+  - symmetry[-integral,no-header]
+  - verbatim: \resetproblem
+  - sum[-integral,no-header]
+  - verbatim: \resetproblem
+  - chase[-integral,no-header]
+  - verbatim: \resetproblem
+  - win-position[-integral,no-header]
+  - verbatim: \resetproblem
+  - mixture[-integral,no-header]

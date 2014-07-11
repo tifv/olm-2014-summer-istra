@@ -1,0 +1,50 @@
+$delegate:
+- olympiad
+- algebra
+- geometry
+- combinatorics
+
+#$delegate[-g78r2,-g78r1,-g9,-g1011,-g10,-g11]:
+#- olympiad/g78-n1
+#- olympiad/g78-n2
+#- .[g78r2]
+#- .[g78r1]
+#- .[g9]
+#- .[g1011]
+#- .[g10]
+#- .[g11]
+
+#$delegate[g78r2]:
+#- algebra
+#- geometry
+#- combinatorics
+#
+#$delegate[g78r1]:
+#- algebra
+#- geometry
+#- combinatorics
+#
+#$delegate[g9]:
+#- olympiad/g9
+#- algebra
+#- geometry
+#- combinatorics
+#
+#$delegate[g1011]:
+#- olympiad/g1011
+#- algebra
+#- geometry
+#- combinatorics
+#
+#$delegate[g10]:
+#- olympiad/g10
+#- algebra
+#- geometry
+#- combinatorics
+#
+#$delegate[g11]:
+#- olympiad/g11
+#- algebra
+#- geometry
+#- combinatorics
+
