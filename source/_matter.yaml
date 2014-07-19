@@ -10,4 +10,6 @@ Integral:
   - /integral[no-header]
   - - verbatim: \tableofcontents
   - /[integral,addtoc,no-date]
+  $build$options:
+    outname: 2014-summer-istra-Integral
 

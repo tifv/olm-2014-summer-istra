@@ -33,3 +33,8 @@ $style:
     \let\jeolmgroupname\relax
     \let\jeolmdate\relax
     \makeatother
+
+_style:
+  jeolm:
+    $delegate$groups: false
+
